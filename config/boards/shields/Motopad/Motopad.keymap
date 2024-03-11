@@ -15,7 +15,7 @@
 
         default_layer {
             bindings = <
-                &kp ESC &TOG MACRO_LAYER1 &TOG MACRO_LAYER2 &TOG SETTINGS
+                &kp ESC &tog MACRO_LAYER1 &tog MACRO_LAYER2 &tog SETTINGS
                 &kp KP_NUMLOCK &kp KP_DIVIDE &kp KP_MULTIPLY  &kp BACKSPACE
                 &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS
                 &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS
@@ -26,7 +26,7 @@
 
         MACRO_LAYER1 {
             bindings = <
-                &kp ESC &TOG MACRO_LAYER1 &TOG MACRO_LAYER2 &TOG SETTINGS
+                &kp ESC &tog MACRO_LAYER1 &tog MACRO_LAYER2 &tog SETTINGS
                 &kp L &kp R &kp C  &kp D
                 &kp O  &kp T &kp M &kp I
                 &kp E &kp H &kp Q &kp F
@@ -37,7 +37,7 @@
 
         MACRO_LAYER2 {
             bindings = <
-                &kp ESC &TOG MACRO_LAYER1 &TOG MACRO_LAYER2 &TOG SETTINGS
+                &kp ESC &tog MACRO_LAYER1 &tog MACRO_LAYER2 &tog SETTINGS
                 &kp  &kp  &kp  &kp
                 &kp  &kp  &kp  &kp
                 &kp  &kp  &kp  &kp
@@ -48,7 +48,7 @@
 
         SETTINGS_LAYER {
             bindings = <
-                &kp ESC &TOG MACRO_LAYER1 &TOG MACRO_LAYER2 &TOG SETTINGS
+                &kp ESC &tog MACRO_LAYER1 &tog MACRO_LAYER2 &tog SETTINGS
                 &kp  &kp  &kp  &bt BT_CLR
                 &kp  &kp  &kp  &bt BT_PRV
                 &kp  &kp  &kp  &bt BT_NXT
