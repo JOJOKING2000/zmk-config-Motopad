@@ -28,32 +28,32 @@
             bindings = <
                 &kp ESC &tog MACRO_LAYER1 &tog MACRO_LAYER2 &tog SETTINGS
                 &kp L &kp R &kp C  &kp D
-                &kp O  &kp T &kp M &kp I
+                &kp O &kp T &kp M &kp I
                 &kp E &kp H &kp Q &kp F
-                &kp  &kp  &kp 
-                     &kp  &kp  &kp KP_ENTER 
+                &none  &none  &none 
+                     &none  &none  &kp KP_ENTER 
             >;
         };
 
         MACRO_LAYER2 {
             bindings = <
                 &kp ESC &tog MACRO_LAYER1 &tog MACRO_LAYER2 &tog SETTINGS
-                &kp  &kp  &kp  &kp
-                &kp  &kp  &kp  &kp
-                &kp  &kp  &kp  &kp
-                &kp  &kp  &kp 
-                     &kp  &kp  &kp KP_ENTER 
+                &none  &none  &none  &none
+                &none  &none  &none  &none
+                &none  &none  &none  &none
+                &none  &none  &none
+                    &none  &none  &kp KP_ENTER 
             >;
         };
 
         SETTINGS_LAYER {
             bindings = <
                 &kp ESC &tog MACRO_LAYER1 &tog MACRO_LAYER2 &tog SETTINGS
-                &kp  &kp  &kp  &bt BT_CLR
-                &kp  &kp  &kp  &bt BT_PRV
-                &kp  &kp  &kp  &bt BT_NXT
+                &none  &none  &none  &bt BT_CLR
+                &none  &none  &none  &bt BT_PRV
+                &none  &none  &none  &bt BT_NXT
                 &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 
-                     &kp  &kp  &bootloader 
+                     &none  &none  &bootloader 
             >;
         };
     };
